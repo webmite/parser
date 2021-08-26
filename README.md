@@ -22,6 +22,9 @@ to get a visual representation of the abstract syntax tree
 
 ![](simple-tree.png?raw=true)
 
+## Related Work
+
+[@nicolaes](https://github.com/nicolaes) ported this project to TypeScript and used it as a [DSL for permissions](https://stackblitz.com/edit/typescript-vhd3tn?file=index.ts).
 
 ## Introduction
 
