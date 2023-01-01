@@ -12,7 +12,7 @@ operations = {
 
 
 def compute(node):
-    if node.token_type == parser.TokenType.T_NUM:
+    if node.token_type in [parser.TokenType.T_NUM,parser.TokenType.T_UNIT]:
         return node.value
     left_result = compute(node.children[0])
     right_result = compute(node.children[1])
